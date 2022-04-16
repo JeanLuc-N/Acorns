@@ -29,7 +29,7 @@ body{
     max-width: 24%;
 }
 
-.two-col{
+.split-2{
     flex: 1 1 50%;
     max-width: 48%;
 }
@@ -109,6 +109,7 @@ body{
       border: none;
   }
 
+
 @media (min-width: 1024px){
     .child {
         flex: 1 1 21%;
@@ -124,7 +125,7 @@ body{
 }
 
 @media (max-width: 991px){
-    .two-col{
+    .split-2{
         flex: 1 1 51%;
         max-width: 100%;
     }
@@ -140,12 +141,23 @@ body{
     }
 }
 
+@media(max-width: 767px){
+    .split-2{
+        flex: 1 1 46%;
+        max-width: 100%;
+    }
+}
+
 
 
 @media (max-width: 665px){
     .child, .photo {
         flex: 1 0 0%;
         min-width: 100%;
+    }
+    .split-2{
+        flex: 1 1 50%;
+        max-width: 100%;
     }
 }
 

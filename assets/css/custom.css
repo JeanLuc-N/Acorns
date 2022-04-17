@@ -129,6 +129,18 @@ body{
         flex: 1 1 51%;
         max-width: 100%;
     }
+    .btn-padding {
+        margin-bottom: 10px;
+    }  
+    .p-5 {
+        padding: 1.5rem!important;
+    }
+    .p-3 {
+        padding: 3rem!important;
+    }
+    .m-5 {
+        margin: 0rem!important;
+    }
 }
 
 @media (max-width: 993px){
@@ -158,6 +170,40 @@ body{
     .split-2{
         flex: 1 1 50%;
         max-width: 100%;
+    }
+    .p-5 {
+        padding: 1rem!important;
+       }
+    .container.p-5 {
+        padding: 0rem!important;
+       } 
+    table:has(.p-5) {
+        padding: 0rem!important;
+    } 
+    
+    td {
+        font-size: 0.8rem;
+
+    }
+
+    .btn-padding {
+        margin-bottom: 10px;
+    }  
+    .m-2 {
+        margin: 0rem!important;
+    } 
+    .row {
+        display: block;
+    }
+    .p-3 {
+        padding: 1rem!important;
+    }
+    .condition > li {
+         border: 1px rgb(170, 166, 166) solid;
+    }
+
+    .carousel-item {
+        height: auto;
     }
 }
 

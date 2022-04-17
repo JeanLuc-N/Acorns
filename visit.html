@@ -51,10 +51,10 @@
                         <li><a class="dropdown-item" href="early-childhood.html">Early Childhood</a></li>
                         <li><a class="dropdown-item" href="primary.html">Primary</a></li>
                         <li><a class="dropdown-item" href="secondary.html">Secondary</a></li>
-                        <li><a class="dropdown-item" href="#">IGCSE</a></li>
+                        <li><a class="dropdown-item" href="igcse.html">IGCSE</a></li>
                         <li><a class="dropdown-item" href="#">Our Teaching Team</a></li>
-                        <li><a class="dropdown-item" href="#">Assessment</a></li>
-                        <li><a class="dropdown-item" href="#">Homework Policy</a></li>
+                        <li><a class="dropdown-item" href="assessment.html">Assessment</a></li>
+                        <li><a class="dropdown-item" href="homework.html">Homework Policy</a></li>
                     </ul>
                   </li>
                   <li class="nav-item dropdown">
@@ -131,40 +131,64 @@
     </section>
     <!-- end of hero section -->
 
-    <main class="p-5">
-        <h3 class="text-center mb-5"> <span class="underlined">Book a Visit</span></h3>
-        <div class="container p-5 shadow  d-flex justify-content-center border-top border-primary border-5 rounded-top">
-            <form class="p-5 w-75">
-                <div class="mb-3 row">
-                    <label for="firstName" class="col-sm-2 col-form-label">First Name</label>
-                    <div class="col-sm-4">
-                      <input type="text" class="form-control" id="firstName" placeholder="first name">
-                    </div>
-                    <label for="lastName" class="col-sm-2 col-form-label">Last Name</label>
-                    <div class="col-sm-4">
-                      <input type="text" class="form-control" id="lastName" placeholder="last name">
-                    </div>
-                </div>
 
-                <div class="mb-3 row">
-                    <label for="email" class="col-sm-2 col-form-label">Email</label>
-                    <div class="col-sm-4">
-                      <input type="email" class="form-control" id="email" placeholder="email">
-                    </div>
-                    <label for="phone" class="col-sm-2 col-form-label">Phone Number</label>
-                    <div class="col-sm-4">
-                      <input type="text" class="form-control" id="phone" placeholder="phone number">
-                    </div>
-                </div>
+    <div class="container my-5">
 
-                <div class="mb-3 row">
-                    <div class="col-sm-4">
-                        <input class="btn btn-primary" type="submit" value="book a visit">
-                    </div>
+      <!--Section: Content-->
+      <section class="text-center  mb-5">
+    
+        <div class="card shadow">
+          <div class="card-body rounded-top border-top border-primary border-5 p-5">
+            
+            <!-- Section heading -->
+            <h3 class="fw-bold my-4"><span class="underlined">Book a vist</span></h3>
+            <!-- Section description -->
+
+            <form class="mb-4 mx-md-5" action="">
+    
+              <div class="row">
+                <div class="col-md-6 mb-4">
+    
+                  <!-- Name -->
+                  <input type="text" id="name" class="form-control" placeholder="Name">
+    
                 </div>
+                <div class="col-md-6 mb-4">
+    
+                  <!-- Email -->
+                  <input type="email" id="email" class="form-control" placeholder="Email">
+    
+                </div>
+              </div>
+    
+              <div class="row">
+                <div class="col-md-12 mb-4">
+    
+                  <!-- phone -->
+                  <input type="text" id="phone" class="form-control" placeholder="Phone number">
+    
+                </div>
+              </div>
+    
+              <div class="row">
+                <div class="col-md-12">
+ 
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-md">Book a visit</button>
+                  </div>
+    
+                </div>
+              </div>
+    
             </form>
+            
+          </div>
         </div>
-    </main>
+    
+      </section>
+      <!--Section: Content-->
+    
+    </div>
 
     <!-- START FOOTER -->
     <footer class="bg-dark py-5">

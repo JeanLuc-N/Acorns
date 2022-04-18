@@ -93,8 +93,12 @@ body{
       border: none;
   }
 
-  .table>:not(:last-child)>:last-child>* {
+  /* .table>:not(:last-child)>:last-child>* {
     border: none;
+  } */
+
+  .hoverable:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .table>:not(caption)>*>* {
@@ -197,9 +201,6 @@ body{
     }
     .p-3 {
         padding: 1rem!important;
-    }
-    .condition > li {
-         border: 1px rgb(170, 166, 166) solid;
     }
 
     .carousel-item {

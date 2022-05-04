@@ -6,7 +6,7 @@ body{
     font-family: 'Metrophobic', sans-serif;
 }
 .carousel-item{
-    height: 400px;
+    height: 500px;
 }
 
 .card-img-full{
@@ -44,7 +44,7 @@ body{
     border: none;
 }
 
-.card-img-top{
+.card-img-top, .logo{
     object-fit: cover;
     aspect-ratio: 1/.7;
 }
@@ -162,6 +162,80 @@ body{
     padding-right: 0;
     text-align: left;
   }
+
+  .fa-play:before {
+    margin-left: .3rem;
+  }
+
+  /* Steps */
+  .step {
+    list-style: none;
+    margin: 0;
+  }
+
+  .step-element {
+    display: flex;
+    padding: 1rem 0;
+  }
+
+  .step-number {
+    position: relative;
+    width: 7rem;
+    flex-shrink: 0;
+    text-align: center;
+  }
+
+  .step-number .number {
+    color: #bfc5ca;
+    background-color: #eaeff4;
+    font-size: 1.5rem;
+  }
+
+  .step-number .number {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+  }
+
+  .number {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    border-radius: 10rem;
+  }
+
+  .step-number::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 48px;
+    bottom: -2rem;
+    margin-left: -1px;
+    border-left: 2px dashed #eaeff4;
+  }
+
+  .step .step-element:last-child .step-number::before {
+    bottom: 1rem;
+  }
+
+  .media{
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .media-body{
+    flex: 1;
+  }
+
+  .list-group-item-action{
+    text-align: start;
+  }
+
+  .border-top {
+    border-top-width: 2px !important;
+  }
+
   
 
 @media (min-width: 1024px){

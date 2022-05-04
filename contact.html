@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,300&display=swap" rel="stylesheet">
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <title>Home</title>
   </head>
@@ -20,8 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container p-4">
             <a class="navbar-brand" href="#">
-                <!-- <img src="assets/images/sandeep-kr-yadav-s25G_G7XvEM-unsplash.jpg" alt="" width="30" height="24"> -->
-                <span class="text-primary">Acorns</span>
+              <img class="logo" src="assets/images/school_logo.png" alt="" height="75" width="150">
             </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -74,6 +74,9 @@
                     <a class="nav-link" href="gallery.html">Gallery</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="contact.html">Contact us</a>
                   </li>
                 </ul>
@@ -85,51 +88,83 @@
     </header>
 
     <!-- start hero section -->
-    <section class="bg-light p-5">
-        <div class="container">
-          <div class="row hero">
-            <div class="col text-center">
-              <h1 class="text-primary">
-                Welcome To Acorns International School
-              </h1>
-              <p>
-                We are a community of staff, parents, and children—a large family dedicated to the premise that the early childhood and primary years is the key to building a life-long foundation, where a love of learning and school are of the utmost importance.
-              </p>
-              <a href="visit.html" class="btn btn-outline-primary btn-padding">Book a visit</a>
-            </div>
-            <div class="col">
-              <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="assets/images/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg" class="d-block card-img-full w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/images/3.jpg" class="d-block card-img-full w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/images/kuanish-reymbaev-o_lLsdVTxak-unsplash.jpg" class="d-block card-img-full w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-            </div>
+    <div class="container-fluid">
+      <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg" class="d-block card-img-full w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/3.jpg" class="d-block card-img-full w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/kuanish-reymbaev-o_lLsdVTxak-unsplash.jpg" class="d-block card-img-full w-100" alt="...">
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- end of hero section -->
+
+    <div class="container my-5 py-5 z-depth-1">
+
+
+      <!--Section: Content-->
+      <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text shadow p-5">
+  
+        <!--Grid row-->
+        <div class="row">
+  
+          <!--Grid column-->
+          <div class="col-md-6 mb-4 mb-md-0">
+  
+            <h3 class="fw-bold">Why Acorns International School</h3>
+  
+            <p class="text-muted">
+              We believe that young children thrive when treated with love, respect, and consistency, and when they are exposed to a robust, age-appropriate curriculum. We encourage our parents to be a part of their children’s lives at AIS through involvement in many events, from assemblies, to open days to parent-teacher conferences. We believe that frequent communication with parents facilitates a greater understanding of the whole child.</p>
+  
+            <a class="btn btn-primary btn-md ml-0 text-light" href="visit.html" role="button">Book a Visit<i class="fa fa-magic ms-2"></i></a>
+  
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-md-6 mb-4 mb-md-0">
+  
+            <!--Image-->
+            <div class="view overlay z-depth-1-half">
+              <img src="assets/images/5.jpg" class="img-fluid"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+  
+          </div>
+          <!--Grid column-->
+  
+        </div>
+        <!--Grid row-->
+  
+  
       </section>
-      <!-- end of hero section -->
+      <!--Section: Content-->
+  
+  
+    </div>
+
 
     <!-- START CONTACT -->
     <section class="p-5">
